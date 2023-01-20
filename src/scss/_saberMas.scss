@@ -1,7 +1,5 @@
 @media (min-width: 320px) {
 .titulo {
-    overflow-x: active;
-    background-color: rgb(253, 248, 240);
     display: flex;
     justify-content: space-evenly;
     p {
@@ -12,6 +10,8 @@
     }
 
     .programar {
+        
+    
         text-align: center;
         padding: 5px 12px;
 
@@ -28,14 +28,18 @@
     
 }
 .saberMas{
+    text-align: left;
+    font-size: 0.7em;
     flex-direction: column;
-    padding: 15px;
-    margin: 30px;
+    padding: 30px;
+    margin: 0;
 }
 
 .detalles{
-    align-items: flex-end;
+    flex-direction: column;
+    font-size: 0.9em;
     text-align: left;
-    padding: 25px;
+    padding: 30px;
+    margin: 0;
 
 }
