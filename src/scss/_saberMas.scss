@@ -2,19 +2,10 @@
 .titulo {
     display: flex;
     justify-content: space-evenly;
-    p {
-        display: block;
-        font-size: 1.7em;
-        font-weight: bold;
-        margin-top: 18px;
-    }
-
     .programar {
-        
-    
+        align-items: center;
         text-align: center;
         padding: 5px 12px;
-
         .texto-color {
             color: $colorButton;
         }
@@ -24,8 +15,6 @@
 .paginas{
     flex-direction: column;
     display: flex;
-    
-    
 }
 .saberMas{
     text-align: left;
@@ -35,9 +24,19 @@
     margin: 0;
 }
 
+.info > ul{
+    max-width: 700px;
+    font-size: 1.3em;
+    color: rgb(87, 84, 84);
+    padding-top: 30px;
+}
+
 .detalles{
+    max-width: 700px;
+    color: rgb(87, 84, 84);
+    justify-content: center;
     flex-direction: column;
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: left;
     padding: 30px;
     margin: 0;

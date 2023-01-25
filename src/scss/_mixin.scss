@@ -9,7 +9,7 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 button {
-    @include button(blueviolet, white);
+    @include button(blueviolet, rgb(253, 248, 240));
     &:hover {
         background-color: rgb(93, 27, 155);
     }
